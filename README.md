@@ -15,7 +15,7 @@ Formulae are built from the grammar
 
 where atom is any Prolog atom, e.g., p,q,r,...,a1,a2,a3,... The usual conventions about binding strength of the connectives apply, i.e., the unary connetives bind stronger than the binary ones, 'and' binds stronger than 'or' binds stronger than '->'.
 
-Run the prover with the command
+To use the prover, make sure you have Prolog installed (e.g., [SWIPL](https://www.swi-prolog.org/)), then load nnprover.pl and run the prover with the command
 
   ?- prv( Formula, Axioms).
 
