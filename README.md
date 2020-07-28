@@ -24,7 +24,7 @@ where Formula is a formula, e.g., p -> q or s, and Axioms is a list of additiona
 - dae: aa p -> ea p
 - daa: neg(aa p and aa neg p)
 
-To see the output as a pdf, run latex or pdflatex on the file output.tex and view the resulting file in your favorite viewer (you might need to zoom in quite a bit for large derivations).
+To see the output as a pdf, run latex or pdflatex on the file output.tex (make sure the file header.sty is in the same directory) and view the resulting file in your favorite viewer (you might need to zoom in quite a bit for large derivations).
 
 NOTE: In some cases the derivations might become too large for TeX to handle (if they are more than about 19 feet). In this case you might need to split the derivation produced in derivation.tex manually.
 
